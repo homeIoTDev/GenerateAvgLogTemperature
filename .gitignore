@@ -1,0 +1,6 @@
+**/bin/
+**/obj/
+*.pm
+*.user
+*.log
+*.oldlog
