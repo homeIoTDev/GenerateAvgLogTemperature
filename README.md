@@ -19,6 +19,7 @@ GenerateAvgLogTemperature [InputLogDatei.log]
 
 Die Eingabedatei hat das folgende Format und es werden nur die Zeilen mit "temperature:" ausgewertet:
 
+```
 2020-05-10_23:20:02 eg.aussen.wettersensor temperature: 19.7
 2020-05-10_23:20:03 eg.aussen.wettersensor humidity: 60.3
 2020-05-10_23:20:03 eg.aussen.wettersensor absFeuchte: 10.2
