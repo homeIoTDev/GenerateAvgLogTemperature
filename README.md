@@ -14,7 +14,11 @@ Das Programm arbeitet pro Logdatei, die man direkt in der Kommandozeile als Para
 
 **Syntax:**
 ```
-GenerateAvgLogTemperature [InputLogDatei.log]
+GenerateAvgLogTemperature InputLogDatei.log [readingString writeStatString]
+
+  z.B.  GenerateAvgLogTemperature.exe eg.aussen.wettersensor-2024.log
+        GenerateAvgLogTemperature.exe eg.aussen.wettersensor-2024.log "temperature:" "eg.aussen.wettersensor statTemperature"
+  oder  GenerateAvgLogTemperature.exe heizung.eg.flur.hk5-2024.log "Temperaturabweichung:" "heizung.eg.whz.hk34 statTemperaturabweichung"
 ```
 
 Die Eingabedatei hat das folgende Format und es werden nur die Zeilen mit "temperature:" ausgewertet:
